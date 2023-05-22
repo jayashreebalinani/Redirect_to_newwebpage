@@ -29,7 +29,7 @@ for(var i = 0; i < info.length; i++){
     if(info[i].Username == name1 && info[i].Password == passcode)
     {
         //newpage()
-        window.open('https://jayashreebalinani.github.io/Redirect_to_New_Webpage/', '_blank');
+        window.open('https://jayashreebalinani.github.io/Redirected_webpage/', '_blank');
 
     }
 }
