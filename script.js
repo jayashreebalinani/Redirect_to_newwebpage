@@ -25,12 +25,15 @@ var info = [
 function display(){
 var name1 = document.getElementById("user").value
 var passcode = document.getElementById("code").value
+var token = "next"
+sessionStorage.setItem('token',token)
+var url = 'https://jayashreebalinani.github.io/Redirected_webpage/?token=' + token
 for(var i = 0; i < info.length; i++){
     if(info[i].Username == name1 && info[i].Password == passcode)
     {
         //newpage()
-        window.open('https://jayashreebalinani.github.io/Redirected_webpage/', '_blank');
-
+        //window.open('https://jayashreebalinani.github.io/Redirected_webpage/', '_blank');
+ window.location.href = url
     }
 }
 }
