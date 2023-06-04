@@ -27,7 +27,7 @@ var name1 = document.getElementById("user").value
 var passcode = document.getElementById("code").value
 var token = "next"
 sessionStorage.setItem('token',token)
-var url = 'https://jayashreebalinani.github.io/Redirected_webpage/?token=' + token
+var url = 'redirected.html?token=' + token
 for(var i = 0; i < info.length; i++){
     if(info[i].Username == name1 && info[i].Password == passcode)
     {
